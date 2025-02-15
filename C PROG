@@ -1,0 +1,23 @@
+#include<stdio.h>
+// function to calculate total resistance double
+calculate_total_resistance(int n,double resistance[]){
+    double total_resistance=0,0;
+    for (int i=0; i<n; i++){
+        total_resistance +=1.0/resistance[i];
+    }
+    return 1.0/
+    total_resistance;
+}
+int main(){
+    int num_resistors;
+    printf("enter the number of resistors:");
+    scanf("%d",&num_resistors);
+    double resistance[num_resistors];
+    printf("enter the resistance(in ohms):\n");
+    for int(int i=0;i< num_resistors;i++){
+        scanf("%1f",&resistances[i]);
+    }
+    double total_resistance=calculate_total_resistance(num_resistors,resistance);
+    printf("total resistance:%.2f ohms\n",total resistance);
+    return 0;
+}
